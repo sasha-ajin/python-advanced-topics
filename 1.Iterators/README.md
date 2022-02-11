@@ -1,5 +1,6 @@
 # Iterators
-
+Iterators are containers for objects so that you can loop over the objects. 
+In other words, you can run the "for" loop over the object
 ## Example
 
 Let's define some python list

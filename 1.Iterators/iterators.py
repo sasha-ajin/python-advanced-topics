@@ -1,4 +1,7 @@
-### ITERATOR EXAMPLE ###
+# Iterators are containers for objects so that you can loop over the objects. 
+# In other words, you can run the "for" loop over the object
+
+## EXAMPLE ##
 # Let's define some python list
 
 num_list = [1, 2, 3, 4, 5]
