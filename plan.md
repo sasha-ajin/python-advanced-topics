@@ -2,7 +2,7 @@
 
 2. ~~Generators~~
 3. ~~Decorators~~
-4. Magic methods
-5. Closure
-6. Property
-7. Lambda function
+4. ~~Lambda function~~
+5. Magic methods
+6. Closure
+7. Property
