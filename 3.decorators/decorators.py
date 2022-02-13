@@ -77,7 +77,7 @@ ivan_question() # hello, Ivan, how are you?!
 
 ### Getting argument from input function in decorator ###
 
-"""But what if we want to create welcome and question functions, where we will pass name argument
+"""But what if we want to create welcome and question functions, where we will get name argument
 and return "hello, <name>, <function print>!" output
 
 In our decorator we should get first argument from args list and write it  
@@ -89,7 +89,7 @@ def hello(fn):
         print("!")
     return inner_function
 
-"""We should write name argument in our methods"""
+"""And now we should write name argument in our methods"""
 @hello
 def welcome(name):
     print("welcome", end="")

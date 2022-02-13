@@ -44,8 +44,8 @@ welcome() # hello, welcome!
 question() # hello, how are you?!
 ```
 ## Decorators with arguments
-What if in our methods we will add some parameter, for example: **name**
-The same part is going to be "hello, <name>, " at the start, and "!" at the end are the same parts
+What if in our methods we will add some parameter, for example: **name** \
+The same part is going to be "hello, < name >, " at the start, and "!" at the end \
 So we should add name argument to our hello decorator
 
 The syntax for decorators with arguments is a bit different, we should make "wrapper"  
@@ -75,7 +75,7 @@ ivan_welcome() # hello, Ivan, welcome!
 ivan_question() # hello, Ivan, how are you?!
 ```
 ## Getting argument from input function in decorator
-But what if we want to create welcome and question functions, where we will pass name argument
+But what if we want to create welcome and question functions, where we will get name argument
 and return "hello, < name >, < function print >!" output
 
 In our decorator we should get first argument from args list and write it  
@@ -87,7 +87,7 @@ def hello(fn):
         print("!")
     return inner_function
 ```
-We should write name argument in our methods
+And now we should write name argument in our methods
 ```python
 @hello
 def welcome(name):
