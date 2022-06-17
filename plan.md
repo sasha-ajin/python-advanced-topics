@@ -3,6 +3,6 @@
 2. ~~Generators~~
 3. ~~Decorators~~
 4. ~~Lambda function~~
-5. Magic methods
-6. Closure
-7. Property
+5. Property
+6. Operator overloading 
+7. Closure
