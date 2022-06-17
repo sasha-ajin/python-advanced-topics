@@ -1,5 +1,5 @@
 # Themes
-
+1. ~~Iterators~~
 2. ~~Generators~~
 3. ~~Decorators~~
 4. ~~Lambda function~~
