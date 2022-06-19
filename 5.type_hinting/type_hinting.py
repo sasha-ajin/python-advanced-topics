@@ -47,7 +47,8 @@ def add(num1: int, num2: int) -> int:
 
 print(add(num1=2, num2=3))  # 5
 """ Sometimes argument can be integers or floats. 
-To set type hints for multiple types, you can use Union from the typing module."""
+To set type hints for multiple types, you can use Union from the typing module.
+"""
 from typing import Union
 
 
@@ -58,7 +59,8 @@ def add(num1: Union[int, float], num2: Union[int, float]) -> Union[int, float]:
 print(add(num1=2, num2=3.5))  # 5.5
 
 """Python allows you to assign an alias to a type and use the alias for type hintings. 
-For example:"""
+For example:
+"""
 number = Union[int, float]
 
 
@@ -91,7 +93,8 @@ oooooooooooooo Python Type Checking oooooooooooooo
 ### Classes ###
 
 """Also you can use type hinting in classes in definition of the 
-python classe.For example:"""
+python classe.For example:
+"""
 class MyClass:
     """You can optionally declare instance variables in the class body"""
     attr: int
